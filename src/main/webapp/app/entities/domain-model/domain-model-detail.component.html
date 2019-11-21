@@ -1,0 +1,30 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="domainModel">
+            <h2><span jhiTranslate="jhispterApp.domainModel.detail.title">Domain Model</span> {{domainModel.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="jhispterApp.domainModel.name">Name</span></dt>
+                <dd>
+                    <span>{{domainModel.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhispterApp.domainModel.type">Type</span></dt>
+                <dd>
+                    <span>{{domainModel.type}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhispterApp.domainModel.dateCreate">Date Create</span></dt>
+                <dd>
+                    <span>{{domainModel.dateCreate}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+        </div>
+    </div>
+</div>

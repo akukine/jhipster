@@ -1,0 +1,24 @@
+{
+  "jhispterApp": {
+    "domainModel": {
+      "home": {
+        "title": "Domain Models",
+        "createLabel": "Crear nuevo Domain Model",
+        "createOrEditLabel": "Crear o editar Domain Model",
+        "notFound": "Ningún Domain Models encontrado"
+      },
+      "created": "Un nuevo Domain Model ha sido creado con el identificador {{ param }}",
+      "updated": "Un Domain Model ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Domain Model ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Domain Model {{ id }}?"
+      },
+      "detail": {
+        "title": "Domain Model"
+      },
+      "name": "Name",
+      "type": "Type",
+      "dateCreate": "Date Create"
+    }
+  }
+}
